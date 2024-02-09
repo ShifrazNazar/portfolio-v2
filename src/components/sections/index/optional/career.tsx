@@ -21,7 +21,7 @@ export default function Career() {
           preTitle="Career"
           subTitle="I am a Software Engineer, My primary goal is to enhance my skills and expand my knowledge to gain valuable experience in complex project development. I am dedicated to continuously improving and staying updated with the latest advancements in the industry."
         />
-		 <section className={career.area}>
+        <section className={career.area}>
           <div className={career.position}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
@@ -41,7 +41,11 @@ export default function Career() {
               </p>
               <p>
                 ● Employed API endpoints to fetch data from the backend,
-                seamlessly displaying it on t
+                seamlessly displaying it on the front end.
+              </p>
+              <p>
+                ● Collaborated closely with the testing team to address bugs
+                during testing phases.
               </p>
             </div>
             <div className={career.companyAlt}></div>
@@ -75,8 +79,7 @@ export default function Career() {
                 30% decrease in data retrieval time.
               </p>
               <p>
-                ● Transformed a newly acquired NextJS dashboard template to ●
-                Developed a multi-page form for a payment gateway leveraging
+                ● Developed a multi-page form for a payment gateway leveraging
                 react-form-hook for state management, MUI stepper to incorporate
                 multi page and Yup for form validations.
               </p>
@@ -91,8 +94,6 @@ export default function Career() {
             />
           </div>
         </section>
-
-       
       </Container>
       <Education />
     </Section>
@@ -112,9 +113,8 @@ const theWebSushi = [
   { key: "yarn", name: "Yarn", type: "devicon" },
 ];
 
-
 const Xsolla = [
-	{ key: "javascript", name: "JavaScript", type: "devicon" },
-	{ key: "html5", name: "HTML5", type: "devicon" },
-	{ key: "css3", name: "CSS3", type: "devicon" },
-  ];
+  { key: "javascript", name: "JavaScript", type: "devicon" },
+  { key: "html5", name: "HTML5", type: "devicon" },
+  { key: "css3", name: "CSS3", type: "devicon" },
+];
