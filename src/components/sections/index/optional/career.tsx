@@ -51,7 +51,7 @@ export default function Career() {
             <div className={career.companyAlt}></div>
 
             <Badges
-              list={theWebSushi}
+              list={Xsolla}
               block="stack"
               fullContainer="fullContainer"
               color={undefined}
@@ -87,7 +87,7 @@ export default function Career() {
             <div className={career.companyAlt}></div>
 
             <Badges
-              list={Xsolla}
+              list={theWebSushi}
               block="stack"
               fullContainer="fullContainer"
               color={undefined}

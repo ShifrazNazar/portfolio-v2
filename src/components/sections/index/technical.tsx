@@ -38,25 +38,34 @@ export default function Technical() {
               invertedColor={undefined}
             />
             <BadgesBlock
-              title="Databases"
-              copy="I have experience working with a variety of databases, allowing me to create efficient and scalable data storage solutions."
-              list={databases}
-              block="tech"
-              fullContainer="fullContainer"
-              icon="database"
-              containerClass={technical.container}
-              headerIcon={technical.icon}
-              invertedColor={undefined}
-            />
-          </div>
-          <div>
-            <BadgesBlock
               title="Front-End Development"
               copy="I specialize in creating beautiful, responsive, and user-friendly front-end experiences. I'm proficient in a variety of front-end technologies and frameworks."
               list={frontEnd}
               block="tech"
               fullContainer="fullContainer"
               icon="laptop-code"
+              containerClass={technical.container}
+              headerIcon={technical.icon}
+              invertedColor={undefined}
+            />
+            <BadgesBlock
+              title="Back-End Development"
+              copy="I have experience working with back-end technologies and frameworks, allowing me to create robust and scalable server-side solutions."
+              list={backEnd}
+              block="tech"
+              fullContainer="fullContainer"
+              icon="server"
+              containerClass={technical.container}
+              headerIcon={technical.icon}
+              invertedColor={undefined}
+            />
+            <BadgesBlock
+              title="Databases"
+              copy="I have experience working with a variety of databases, allowing me to create efficient and scalable data storage solutions."
+              list={databases}
+              block="tech"
+              fullContainer="fullContainer"
+              icon="database"
               containerClass={technical.container}
               headerIcon={technical.icon}
               invertedColor={undefined}
@@ -74,17 +83,13 @@ export default function Technical() {
               invertedColor={undefined}
             />
           </div>
-          <div>
-            <BadgesBlock
-              title="Back-End Development"
-              copy="I have experience working with back-end technologies and frameworks, allowing me to create robust and scalable server-side solutions."
-              list={backEnd}
-              block="tech"
-              fullContainer="fullContainer"
-              icon="server"
-              containerClass={technical.container}
-              headerIcon={technical.icon}
-              invertedColor={undefined}
+          <div className={`${technical.image} ${technical.technicalSvg}`}>
+            <Image
+              src="/img/dataism-24.svg"
+              width={477}
+              height={1111}
+              alt="data string background"
+              loading="eager"
             />
           </div>
         </section>

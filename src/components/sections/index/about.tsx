@@ -12,7 +12,7 @@ import CopyBlock from "../../blocks/about.copy";
 
 import about from "../../../styles/scss/sections/index/about.module.scss";
 import React from "react";
-import profilePic from "../../../../public/img/profile-pic.jpg";
+import profilePic from "../../../../public/img/profile-pic2.png";
 
 export default function About() {
   return (
