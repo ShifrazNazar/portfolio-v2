@@ -121,6 +121,7 @@ const frontEnd = [
 const backEnd = [
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "express", name: "Express", type: "devicon" },
+  { key: "nextjs", name: "NextJS", type: "devicon" },
   { key: "django", name: "Django", type: "devicon" },
 ];
 
