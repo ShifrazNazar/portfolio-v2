@@ -82,7 +82,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
                 <LazyMotion features={domAnimation}>
                     <Layout>
                         <Component {...pageProps} />
-                        <DevelopmentNotice />
+                        {/* <DevelopmentNotice /> */}
                         <SpeedInsights/>
                         <Analytics />
                         <SetGridGap />
