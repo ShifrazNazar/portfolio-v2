@@ -1,0 +1,29 @@
+[
+  {
+    "project": "LinkedIn Clone",
+    "descriptionTitle": "",
+    "code": "https://github.com/ShifrazNazar/linkedin-clone",
+    "demo": "https://linkedin-clone-6b0d4.web.app/",
+    "repo": "Public",
+    "description": "Developed a LinkedIn Clone project, highlighting expertise in Full-Stack application. Integrated FirebaseAuth for authentication and Firestore to store and retrieve posts and comments.",
+    "imageOptions": [],
+    "images": [
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "300",
+        "w": "500",
+        "url": "/img/linkedin.png"
+      }
+    ],
+    "stack": [
+      { "key": "html5", "name": "HTML5", "type": "devicon" },
+      { "key": "css3", "name": "CSS3", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "redux", "name": "Redux", "type": "devicon" },
+      { "key": "firebase", "name": "Firebase", "type": "devicon" },
+      { "key": "tailwind", "name": "Tailwind", "type": "devicon" }
+    ]
+  }
+]

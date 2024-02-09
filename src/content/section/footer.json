@@ -1,0 +1,39 @@
+{
+
+	"links": [
+		{
+			"person": "Home",
+			"link": "https://shifraznazar.vercel.app/",
+			"note": ""
+		},
+
+		{
+			"person": "Projects",
+			"link": "https://shifraznazar.vercel.app/projects",
+			"note": ""
+		},
+		{
+			"person": "Contact",
+			"link": "mailto:shifraznazar@gmail.com",
+			"note": ""
+		}
+
+
+	],
+
+	"social": [
+
+		{
+			"url": "https://www.linkedin.com/in/ShifrazNazar/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/ShifrazNazar",
+			"icon": "github"
+		},
+		{
+			"url": "https://dev.to/shifraznazar",
+			"icon": "dev"
+		}
+	]
+}
